@@ -13,7 +13,7 @@ public class SumOfTenNumber {
 		int num, sum=0;
 		Scanner scanner=new Scanner(System.in);
 		
-		for(int i=0;i<10;i++){
+		for(int i=1;i<=10;i++){
 			System.out.print("input your "+i+"-number");
 			num=scanner.nextInt();
 			sum+=num;

@@ -13,7 +13,7 @@ public class CountEvenOddNumber {
 		Scanner scanner=new Scanner(System.in);
 		
 		for(int i=0;i<10;i++){
-			System.out.print("enter the "+i+"-number:");
+			System.out.print("enter the "+(i+1)+"-number:");
 			num=scanner.nextInt();
 			if(num%2!=0){
 				cnt_odd++;
@@ -21,7 +21,7 @@ public class CountEvenOddNumber {
 				cnt_even++;
 			}
 		}
-		System.out.println("you entered "+cnt_even+" even number,\r\n "+cnt_even+" odd number");
+		System.out.println("you entered "+cnt_even+" even number(s),\r\n "+cnt_even+" odd number(s)");
 
 	}
 
