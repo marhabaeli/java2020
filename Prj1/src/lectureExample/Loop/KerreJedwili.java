@@ -21,11 +21,11 @@ public class KerreJedwili {
 //		
 //		System.out.println("==============================");
 		
-		int c=0;
-		for(int i=1;i<=100;i+=2){
+		int a=0;
+		for(int i=1;i<=100;i+=2){//1 3 5 7 9 11
 			System.out.print(i+" ");
-			c++;
-			if(c%5==0){
+			a++;
+			if(a%5==0){
 				System.out.println();
 			}			
 		}
