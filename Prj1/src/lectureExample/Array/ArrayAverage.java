@@ -23,7 +23,7 @@ public class ArrayAverage {
 		}
 		
 		max=min=a[0]; min_i=max_i=0;
-		for(int i=0;i<a.length;i++){
+		for(int i=1;i<a.length;i++){
 //			max=max<a[i]?a[i]:max;
 			if(max<a[i]){
 				max=a[i];
