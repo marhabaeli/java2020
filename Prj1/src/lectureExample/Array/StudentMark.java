@@ -82,6 +82,7 @@ public class StudentMark {
 		}
 				
 		
+		
 		//find each class’s max grade, min grade and average grade
 		int[] sum={0,0,0};//sum[0]--math sum, sum[1]--english, sum[2]---java 
 		
