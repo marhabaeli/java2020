@@ -1,0 +1,4 @@
+Memet, Physics, 21, 95.8
+Arzugul, Computer, 20, 89.8
+Semet, Math, 22, 88.4
+Ruqiye, Art, 19, 90.6
